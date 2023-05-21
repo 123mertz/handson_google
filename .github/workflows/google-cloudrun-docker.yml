@@ -50,9 +50,9 @@ on:
 
 env:
   PROJECT_ID: primal-outrider-387411 # TODO: update Google Cloud project id
-  GAR_LOCATION: us-east-1 # TODO: update Artifact Registry location
+  GAR_LOCATION: us-east1 # TODO: update Artifact Registry location
   SERVICE: sm703-service # TODO: update Cloud Run service name
-  REGION: use-east-1 # TODO: update Cloud Run service region
+  REGION: us-east1 # TODO: update Cloud Run service region
 
 jobs:
   deploy:
